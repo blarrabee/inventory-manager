@@ -42,3 +42,23 @@ function doSomeMath(){
 var theResult = doSomeMath();
 
 console.log('the result: ', theResult);
+
+function giveMeEms(pixles) {
+  var baseValue = 16;
+
+  function doTheMath() {
+    return pixels/baseValue;
+  }
+
+  return doTheMath;
+}
+
+var smallSize = giveMeEms(12);
+var mediumSize = giveMeEms(18);
+var largeSize = giveMeEms(24);
+var xlargeSize = giveMeEms(32);
+
+console.log("Small Size:" + smallSize);
+console.log("medium Size:" + mediumSize);
+console.log("large size:" + largeSize);
+console.log("x large size:" + xlargeSize);
