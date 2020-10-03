@@ -13,7 +13,7 @@ app.listen(HTTP_PORT, () => {
 });
 // root endpoint
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.sendFile(path.join(__dirname + '/myLesson.js'));
 
 });
 // request all users
