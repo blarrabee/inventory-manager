@@ -21,6 +21,11 @@ function Course(title,instructor,level,published,views) {
   };
 }
 
+var courses = [
+
+  
+]
+
 var course01 = new Course("Javasript", "blaise", 1, true, 0);
 
 console.log(course01);
