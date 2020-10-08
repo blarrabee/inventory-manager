@@ -1,3 +1,6 @@
+let timerRunning = false;
+
+
 function leadingZero(timer) {
   if (timer <= 9){
     timer = "0" + timer;
